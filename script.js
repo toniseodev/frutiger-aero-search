@@ -3,3 +3,9 @@ fetch('https://api.thecatapi.com/v1/images/search')
   .then(data => {
     document.getElementById('cat-image').src = data[0].url;
   });
+
+fetch('https://random.dog/woof.json')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('dog-image').src = data[0].url;
+  });
