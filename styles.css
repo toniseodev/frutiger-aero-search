@@ -39,6 +39,19 @@
   border-left: solid 0.5px gray;
 }
 
+.cat-container{
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  display: block;
+  background-color: rgb(255,255,255,0.75);
+}
+
+#cat-image{
+  width: 15%;
+  height: auto;
+}
+
 .btn-container{
   margin-top: 40px;
   display: flex;
@@ -79,3 +92,5 @@
 .btn-pink{
   background: radial-gradient(#c2185b, #e91e63, #f06292, #f8bbd0);
 }
+
+
